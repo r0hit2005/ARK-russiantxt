@@ -1,0 +1,8 @@
+prefix=/home/r0hit/ARK/ARK-russiantxt/catkin_ws/devel
+
+Name: russian_txt
+Description: Description of russian_txt
+Version: 0.0.0
+Cflags: -I/home/r0hit/ARK/ARK-russiantxt/catkin_ws/devel/include -I/home/r0hit/ARK/ARK-russiantxt/catkin_ws/src/russian_txt/include
+Libs: -L${prefix}/lib -lrussian_txt
+Requires: roscpp rospy std_msgs sensor_msgs cv_bridge message_runtime
